@@ -1,0 +1,93 @@
+body {
+  padding-top: 1%;
+}
+
+.title {
+  margin-left: 32px;
+  color: #009578;
+}
+.table {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  font-family: "Quicksand" sans-serif;
+  overflow: hidden;
+  font-weight: bold;
+  margin: 1% 2em 1% 2em;
+}
+
+.table thead th {
+  background-color: #009578;
+  color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 10px 20px;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #eeeeee;
+}
+.table tr:hover,
+.table tbody tr:nth-of-type(even):hover {
+  background-color: #c9c8c8;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009578;
+}
+
+.table tr {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #009578;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #898989;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post {
+  flex: 0 1 15%;
+  background: white;
+  margin: 0 2em 2em 2em;
+  box-shadow: 1px 1px 1px 1px rgba(0, 180, 150, 0.2);
+}
+
+.container {
+  padding: 1.4em;
+}
+
+.container h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 80%;
+}
+
+.backBtn {
+  display: none;
+  float: right;
+  margin-right: 30px;
+  background-color: #009578;
+  border: none;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
